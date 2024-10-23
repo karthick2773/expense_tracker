@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'expense_tracker.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'expense_tracker_sql_db',
+       'USER': os.getenv('DB_USER'),
+       'PASSWORD': os.getenv('DB_PASS'),
+       'HOST': 'localhost',
+       'PORT': '5432',
     }
 }
 
