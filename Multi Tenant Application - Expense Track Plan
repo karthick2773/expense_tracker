@@ -1,0 +1,20 @@
+Multi Tenant Application - Expense Tracker
+
+Log in
+    -User name and Password
+    -sign up
+    -Admin Login Logged using Username and Password
+        -Able to see information of all users and manage users
+        -Store History of User Actions in Elastic Search
+            -Admin Can view all users History
+            -User can view corresponding history of themselves
+Dashboard
+Menu
+    -Add Daily Expense
+    -Bank Details Addition
+    -Category Addition
+    -Calculators
+    -Goal Plan and Progress
+    -Reports
+        -Daily Expense Report
+        
