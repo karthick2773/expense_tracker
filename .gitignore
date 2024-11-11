@@ -1,3 +1,4 @@
 expense_tracker/.env
 venv
 expense_tracker/expense_tracker/super_user.txt
+expense_tracker/Multi Tenant Application-Expense Track Plan
